@@ -21,7 +21,7 @@ public class Pedido {
         for (String item : dentroDaCaixa) buffer.append("\t "+item+"\n");
         buffer.append("Fora da caixa:\n");
         for (String item : foraDaCaixa) buffer.append("\t"+item+"\n");
-        buffer.append("\nTenha um bom dia\n\n");
+        buffer.append("\nTenha um bom dia!\n\n");
         return buffer.toString();
     }
 }

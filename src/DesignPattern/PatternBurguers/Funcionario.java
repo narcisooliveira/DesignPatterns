@@ -7,7 +7,7 @@ public class Funcionario {
         this.montarLanche = montarSanduba;
     }
 
-    public void montandoSanduba(){
+    public void montarLanche(){
         montarLanche.tipoSanduba();
         montarLanche.tamanhoBatata();
         montarLanche.refri();
