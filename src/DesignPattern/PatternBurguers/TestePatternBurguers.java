@@ -12,8 +12,9 @@ public class TestePatternBurguers {
                 "\nTotal: "+lanche.precoLanche);
         System.out.println();
         Pedido pedido = new Pedido();
-        pedido.adicionarDentroDaCaixa("Sanduíche, batata e brinquedo");
-        pedido.adicionarForaDaCaixa("Refrigerante");
+        pedido.adicionarDentroDaCaixa(lanche.tipoLanche+", Batata "+lanche.tamanhoBatata+
+                " e "+ lanche.brinquedo);
+        pedido.adicionarForaDaCaixa(lanche.refri);
         System.out.println(pedido.toString());
     }
 }
