@@ -1,14 +1,13 @@
 package DesignPattern.Bridge;
 
-public class JanelaWindows implements JanelaImplementada{
-
+public class JanelaLinux implements JanelaImplementada{
     @Override
     public void desenharJanela(String titulo) {
-        System.out.println(titulo+" Janela Windows");
+        System.out.println(titulo+" Janela Linux");
     }
 
     @Override
     public void desenharBotao(String titulo) {
-        System.out.println(titulo+" Botão Windows");
+        System.out.println(titulo+" Botão Linux");
     }
 }
