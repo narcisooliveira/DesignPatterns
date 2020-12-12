@@ -23,7 +23,7 @@ public class FabricaLog implements IFabricaLog{
                 gravarArq.printf(String.valueOf(i));
             }
             arq.close();
-        }
+        }else throw new InvalidElementException("Elemento Inválido!");
     }
 
 }
